@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+
+        android:onClick="onClick"
+        android:id="@+id/textB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="B"
+        android:textSize="48sp" />
+
+    <View
+        android:id="@+id/textA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+
+
+        android:textSize="48sp" />
+
+</merge>

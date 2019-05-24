@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rx</string>
+    <string name="toast_file_deleted">Удален!</string>
+
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+    <string name="learn">Учить слова</string>
+    <string name="dictation">Диктант</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Locatr</string>
+
+    <string name="search">Find an image near you</string>
+
+    <string name="permission_dialog">Locatr использует позиционные данные для поиска близлежащих изображений на Flickr</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
