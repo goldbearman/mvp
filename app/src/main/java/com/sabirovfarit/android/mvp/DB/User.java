@@ -1,11 +1,22 @@
 package com.sabirovfarit.android.mvp.DB;
 
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 
-@Entity
+@Entity(tableName = "user")
 public class User {
+    @PrimaryKey(autoGenerate = true)
+    private long id;
     private String name;
     private String email;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
